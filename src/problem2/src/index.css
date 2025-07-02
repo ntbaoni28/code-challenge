@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme { 
+    --color-background-100: #030712;
+    --color-background-200: #1d1f29;
+    --color-background-300: #364152;
+
+    --color-foreground-100: #ffffff;
+    --color-foreground-200: #e3e3e3;
+    --color-foreground-300: #9b9eab;
+    
+    --color-btn: #00cc88;
+    --color-btn-hover: #22aa77;
+    --color-btn-disabled: #8ad4ba;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
